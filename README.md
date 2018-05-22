@@ -3,7 +3,7 @@
 What is this?
 =============
 
-This repository demonstrates how to combine a research compendium created by [rrtools](https://github.com/benmarwick/rrtools) with Binder, a service that creates an executable environment with RStudio in your browser. This means you can work on your compendium, writing the paper and code on any computer with a web browser and internet connection. This also makes your code immediately reproducible by anyone, anywhere.
+This repository is an experimental demonstratation of how you might combine a research compendium created by [rrtools](https://github.com/benmarwick/rrtools) with Binder, a service that creates an executable environment with RStudio in your browser. This means you can work on your compendium, writing the paper and code on any computer with a web browser and internet connection. This also makes your code immediately reproducible by anyone, anywhere. Scroll right to the bottom of this readme to find the pink button that will start Binder for this repository.
 
 How to try it out?
 ------------------
@@ -16,7 +16,7 @@ to replace benmarwick with your GitHub username:
 
 `[![Binder](https://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/yourusername/blank-research-compendium/master)`
 
-Then commit and push this change to your GitHub repository, once it has updated, click on the pink 'launch binder' button in your README on your repository to start the Binder service in your browser. First you will see the loading screen, which looks like this:
+Then knit, commit and push this change to your GitHub repository. Once it has updated, click on the pink 'launch binder' button in your README on your repository to start the Binder service in your browser. First you will see the loading screen, which looks like this:
 
 ![](readme-images/binder-launching.png)
 
@@ -48,7 +48,7 @@ How to use this with a research compendium?
 
 There are two ways to use Binder with a GitHub-hosted research compendium:
 
-1.  Use Binder to write text and develop and run code in RStudio in your browser, and commit and push back to the repo to save your changes. This adds a lot of flexibility to working with research compendia because you don't need to install anything locally. If you do this, you should start by running `rrtools::use_compendium("pkgname")` and follow the rest ofthe [rrtools](https://github.com/benmarwick/rrtools) setup steps. However, the Binder developers discourage using passwords in Binder because they do no guarantee the security of data moving through their service.
+1.  Use Binder to write text and develop and run code in RStudio in your browser, and commit and push back to the repo to save your changes. This adds a lot of flexibility to working with research compendia because you don't need to install anything locally. If you do this, you should start by running `rrtools::use_readme_rmd()` and follow the rest ofthe [rrtools](https://github.com/benmarwick/rrtools) setup steps. As you go through these steps, you should choose 'Yes' to overwrite the README file and `analysis/` directory in this repo. You'll need to change the name of the RStudio project and compendium name in a few places. However, the Binder developers discourage using passwords in Binder because they do no guarantee the security of data moving through their service.
 
 2.  After development of research compendium is complete, and the paper is published, add a 'launch binder' button and the config files to the compendium repository on GitHub to enable others to explore the text and run the code in their browser. This is using Binder more like a display cabinet for the code, and you are not a risk of having your passwords exposed.
 
