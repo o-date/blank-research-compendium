@@ -1,0 +1,8 @@
+*.cache
+*.conda/pkgs
+*.ipynb_checkpoints
+*.local/share/jupyter
+.bash_logout
+.bashrc
+.profile
+.wget-hsts
