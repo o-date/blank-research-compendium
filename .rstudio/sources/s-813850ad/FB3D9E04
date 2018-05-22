@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "114972279",
+    "hash" : "0",
     "id" : "FB3D9E04",
-    "lastKnownWriteTime" : 1526946814,
-    "last_content_update" : 1526946814476,
+    "lastKnownWriteTime" : 1526947943,
+    "last_content_update" : 1526947943523,
     "path" : "~/README.Rmd",
     "project_path" : null,
     "properties" : {
-        "cursorPosition" : "14,1",
-        "scrollLine" : "9"
+        "cursorPosition" : "16,324",
+        "scrollLine" : "15"
     },
     "relative_order" : 2,
     "source_on_save" : false,

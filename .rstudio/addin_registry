@@ -14,5 +14,45 @@
         "name" : "Preview Book",
         "package" : "bookdown",
         "title" : ""
+    },
+    "clipr::clipr_output" : {
+        "binding" : "clipr_output",
+        "description" : "Copies the console output of a selected expression to the system clipboard",
+        "interactive" : false,
+        "name" : "Output to clipboard",
+        "package" : "clipr",
+        "title" : ""
+    },
+    "clipr::clipr_result" : {
+        "binding" : "clipr_result",
+        "description" : "Copies the results of a selected expression to the system clipboard",
+        "interactive" : false,
+        "name" : "Value to clipboard",
+        "package" : "clipr",
+        "title" : ""
+    },
+    "styler::style_active_file" : {
+        "binding" : "style_active_file",
+        "description" : "Pretty-print active file",
+        "interactive" : true,
+        "name" : "Style active file",
+        "package" : "styler",
+        "title" : ""
+    },
+    "styler::style_pkg" : {
+        "binding" : "style_pkg",
+        "description" : "Pretty-print package source code",
+        "interactive" : true,
+        "name" : "Style package",
+        "package" : "styler",
+        "title" : ""
+    },
+    "styler::style_selection" : {
+        "binding" : "style_selection",
+        "description" : "Pretty-print selection",
+        "interactive" : true,
+        "name" : "Style selection",
+        "package" : "styler",
+        "title" : ""
     }
 }

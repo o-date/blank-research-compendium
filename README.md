@@ -6,6 +6,13 @@
 See [Marwick, *rrtools: Tools for Writing Reproducible Research in
 R*](https://github.com/benmarwick/rrtools) for all the features.
 
+Fork this repo, and paste the URL into
+[mybinder.org](http://mybinder.org). Launch your copy. Start a new
+RStudio session, and work\! Then from Juypter Home tab, open a new
+terminal and `git add .`, `git commit -m "message"`, and `git push -u
+origin master` to push your changes back to your own repo. Save early,
+save often.
+
 # research.compendium
 
 This repository contains the data and code for our paper:
@@ -15,7 +22,7 @@ This repository contains the data and code for our paper:
 
 Our pre-print is online here:
 
-> Authors, (YYYY). *Title of paper*. Name of journal/book, Accessed 21
+> Authors, (YYYY). *Title of paper*. Name of journal/book, Accessed 22
 > May 2018. Online at <https://doi.org/xxx/xxx>
 
 ### How to cite
@@ -23,7 +30,7 @@ Our pre-print is online here:
 Please cite this compendium as:
 
 > Authors, (2018). *Compendium of R code and data for ‘Title of paper’*.
-> Accessed 21 May 2018. Online at <https://doi.org/xxx/xxx>
+> Accessed 22 May 2018. Online at <https://doi.org/xxx/xxx>
 
 ### How to download or install
 

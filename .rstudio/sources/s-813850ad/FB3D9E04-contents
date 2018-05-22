@@ -14,6 +14,8 @@ knitr::opts_chunk$set(
 
 _Run this repository in a Binder_  [![Binder](https://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/o-date/blank-research-compendium/master). See [Marwick, _rrtools: Tools for Writing Reproducible Research in R_](https://github.com/benmarwick/rrtools) for all the features. 
 
+Fork this repo, and paste the URL into [mybinder.org](http://mybinder.org). Launch your copy. Start a new RStudio session, and work! Then from Juypter Home tab, open a new terminal and `git add .`, `git commit -m "message"`, and `git push -u origin master` to push your changes back to your own repo. Save early, save often.
+
 # research.compendium
 
 This repository contains the data and code for our paper:
