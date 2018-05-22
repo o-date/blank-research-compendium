@@ -1,2 +1,0 @@
-1526946402771:library("devtools", lib.loc="/srv/rlibs")
-1526946466900:devtools::install_github("benmarwick/rrtools")
