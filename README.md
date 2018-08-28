@@ -1,5 +1,7 @@
 [![DOI](https://zenodo.org/badge/134335885.svg)](https://zenodo.org/badge/latestdoi/134335885)
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/o-date/blank-research-compendium/master)
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 What is this?
 =============
